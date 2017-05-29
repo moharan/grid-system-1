@@ -1,5 +1,5 @@
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 }
 .caja{
 	background-color: #9B0022;
@@ -25,6 +25,16 @@ header{
 
 .texto{
 	position: absolute;
-	top: 40%;
-	left: 35%;
+	font-family: 'Barrio', cursive;
+	top: 45%;
+	left: 33%;
+	color: white;
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.boton {
+	float: right;
+	text-decoration: none;
+	color: cyan;
 }
