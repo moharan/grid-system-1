@@ -1,8 +1,9 @@
 body{
 	font-family: sans-serif;
+	color: #666;
 }
 .caja{
-	background-color: #9B0022;
+	background-color: #2E9AFE;
 }
 
 header{
@@ -26,15 +27,49 @@ header{
 .texto{
 	position: absolute;
 	font-family: 'Barrio', cursive;
-	top: 45%;
-	left: 33%;
-	color: white;
+	top: 25%;
+	left: 25%;
+	color: #29088A;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	width: 50%;
+	height: 50%;
 	font-size: 35px;
 	font-weight: bolder;
 }
 
-.boton {
-	float: right;
+.botones {
 	text-decoration: none;
-	color: cyan;
+	background-color: #2E9AFE;
+	color: white;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.boton {
+	text-decoration: none;
+	background-color: #29088A;
+	color: white;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.boton, ._01 {
+	float: right;
+}
+
+._02 {
+	float: left;
+}
+
+.parrafo {
+	text-align: justify;
 }
